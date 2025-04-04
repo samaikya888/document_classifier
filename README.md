@@ -23,8 +23,19 @@ document_classifier/
 .
 .
 .
+└── results_screenshots
 
 ```
+
+## Prerequisites 
+
+### Backend:
+- Python: Version 3.8 or higher
+- pip: Python package manager
+
+### Frontend:
+- Node.js: Version 16 or higher
+- npm: Comes bundled with Node.js
 
 ## Features
 - File upload for PDF and DOCX documents
@@ -50,6 +61,12 @@ npm install
 ```
 
 ## Running the Application
+
+- Start both servers (backend and frontend).
+- Open http://localhost:5173 in your browser.
+- Upload a PDF or DOCX file.
+- Click "Classify Document".
+- View results below the button. Sample results are shown in results_screenshots in this repository
 
 ### Start Backend Server (Flask)
 ```
