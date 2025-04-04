@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* PDF Preview Section */
+  .pdf-preview {
+    margin-top: 20px;
+  }
+  
+  .pdf-preview h2 {
+    font-size: 18px;
+  }
+  
+  .pdf-preview embed {
+    display: block;
+  }
+  
+  /* Result Section */
+  .result-section {
+    margin-top: 30px;
+  }
+  
+  .result-section h2 {
+    border-bottom: solid #eee;
+  }
+  
+  .result-section .error {
+    color: red;
+  }
+  
+  .result-section .document-type span {
+    font-weight: bold;
+  }
+  
+  .text-preview pre {
+    background-color: #e9ecef;
+  }
+  
+.docx-preview {
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .docx-preview pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .preview-section {
+    margin: 2rem 0;
+  }
+  
+  .pdf-preview {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+  }
+  
+  .results pre {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+  }
+  
+  .error {
+    color: #dc3545;
+    padding: 1rem;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+  }
+  
